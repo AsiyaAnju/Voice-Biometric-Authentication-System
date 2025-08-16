@@ -12,7 +12,7 @@ Voice Biometric Authentication System focuses on verifying user identity through
 * The backend is Python-based, enabling secure and efficient voice authentication. 
 * Extensive testing under various conditions confirms high accuracy and robustness, making the system suitable for applications like banking, IoT, and access control. 
 
-## Features
+# Features
 
 1. *Voice Recording* – captures voice samples using sounddevice
 2. *Local Storage* – saves recordings and user voiceprints in voiceprints.pkl
@@ -21,7 +21,7 @@ Voice Biometric Authentication System focuses on verifying user identity through
 5. *Similarity Check* – compares voices using Euclidean distance for authentication
 6. *Voice Guidance* – provides step-by-step assistance using pyttsx3 text-to-speech
 
-## Tech Stack
+# Tech Stack
 1. *Programming Language*: <img src="https://cdn.simpleicons.org/python/3776AB" height="15em" alt="Python" />&nbsp;Python
 
 2. *Audio Processing*:
@@ -57,7 +57,7 @@ Voice Biometric Authentication System focuses on verifying user identity through
 # 📂 Project Structure
 <img width="840" height="202" alt="image" src="https://github.com/user-attachments/assets/96f19840-5bd0-4ea2-9000-edbdcb947543" />
 
-## 📚 Documentation
+# 📚 Documentation
 - 📑 Project Report => Voice Biometric Authentication System - Report
 - 📊 Project Presentation => Voice Biometric Authentication System - Presentation
 
@@ -101,7 +101,7 @@ Voice Biometric Authentication System focuses on verifying user identity through
 <img width="500" height="800" alt="image (2)" src="https://github.com/user-attachments/assets/7c3dd04e-0fbb-421e-96ef-eba44de028cc" />
 </p>
 
-## Future Improvements
+# Future Improvements
 
 1. Use ML models (e.g., SVM, neural networks) to improve the authentication model and achieve better accuracy.
 2. Add GUI for easier interaction.
