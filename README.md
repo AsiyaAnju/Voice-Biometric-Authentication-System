@@ -57,6 +57,10 @@ Voice Biometric Authentication System focuses on verifying user identity through
 # 📂 Project Structure
 <img width="840" height="202" alt="image" src="https://github.com/user-attachments/assets/96f19840-5bd0-4ea2-9000-edbdcb947543" />
 
+## 📚 Documentation
+- 📑 Project Report => Voice Biometric Authentication System - Report
+- 📊 Project Presentation => Voice Biometric Authentication System - Presentation
+
 # Installation and Set-up
 1. Clone the Repository
 <br>&nbsp;&nbsp;git clone https://github.com/AsiyaAnju/Voice-Biometric-Authentication-System.git
