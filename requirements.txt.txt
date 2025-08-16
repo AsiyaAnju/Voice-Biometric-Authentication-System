@@ -1,0 +1,6 @@
+numpy
+librosa
+sounddevice
+wavio
+pyttsx3
+noisereduce
