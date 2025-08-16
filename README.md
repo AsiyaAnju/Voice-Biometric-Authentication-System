@@ -12,7 +12,7 @@ Voice Biometric Authentication System focuses on verifying user identity through
 * The backend is Python-based, enabling secure and efficient voice authentication. 
 * Extensive testing under various conditions confirms high accuracy and robustness, making the system suitable for applications like banking, IoT, and access control. 
 
-# Features
+## Features
 
 1. *Voice Recording* – captures voice samples using sounddevice
 2. *Local Storage* – saves recordings and user voiceprints in voiceprints.pkl
@@ -21,7 +21,7 @@ Voice Biometric Authentication System focuses on verifying user identity through
 5. *Similarity Check* – compares voices using Euclidean distance for authentication
 6. *Voice Guidance* – provides step-by-step assistance using pyttsx3 text-to-speech
 
-# Tech Stack
+## Tech Stack
 1. *Programming Language*: <img src="https://cdn.simpleicons.org/python/3776AB" height="15em" alt="Python" />&nbsp;Python
 
 2. *Audio Processing*:
@@ -38,15 +38,15 @@ Voice Biometric Authentication System focuses on verifying user identity through
 <br>numpy – numerical computations
 6. *Environment*: Local execution (no cloud/server needed)
 
-# Requirement Analysis
-## Hardware Requirements
+## Requirement Analysis
+### Hardware Requirements
 1. High-Quality Microphone – Captures clear voice samples with minimal noise; noise-canceling recommended.
 2. Processing Unit (CPU/GPU) – Multi-core processor (Intel i5/i7, AMD Ryzen 5/7+); GPU (NVIDIA RTX/GTX) for deep learning.
 3. RAM (Memory) – Minimum 8GB (16GB+ recommended) for efficient AI model processing.
 4. Storage (SSD Preferred) – At least 256GB SSD; 1TB+ for large voiceprint databases.
 5. Audio Processing Hardware (Optional) – DSPs for real-time noise filtering and voice enhancement.
 
-## Software Requirements
+### Software Requirements
 1. Operating System: Windows 10/11, macOS, or Linux (Ubuntu preferred)
 2. Programming Language: Python 3.7 or above
 3. Required Libraries: numpy, librosa, sounddevice, wavio, pyttsx3, noisereduce, pickle
@@ -54,14 +54,14 @@ Voice Biometric Authentication System focuses on verifying user identity through
 5. Audio Support: Microphone access enabled, 22050 Hz sample rate
 6. Storage: Local file handling for .wav files & voiceprints.pkl
 
-# 📂 Project Structure
+## 📂 Project Structure
 <img width="840" height="202" alt="image" src="https://github.com/user-attachments/assets/96f19840-5bd0-4ea2-9000-edbdcb947543" />
 
-# 📚 Documentation
+## 📚 Documentation
 - 📑 Project Report => Voice Biometric Authentication System - Report
 - 📊 Project Presentation => Voice Biometric Authentication System - Presentation
 
-# Installation and Set-up
+## Installation and Set-up
 1. Clone the Repository
 <br>&nbsp;&nbsp;git clone https://github.com/AsiyaAnju/Voice-Biometric-Authentication-System.git
 <br>&nbsp;&nbsp;cd Voice-Biometric-Authentication-System
@@ -88,7 +88,7 @@ Voice Biometric Authentication System focuses on verifying user identity through
 <br>Threshold can be adjusted in code (similarity < 25)
 <br>Currently stores data locally only (no server/database)
 
-# System Design and Architecture
+## System Design and Architecture
 1️⃣ User Voice Acquisition<br>
 2️⃣ Feature Extraction<br>
 3️⃣ Deep Learning-Based Authentication<br>
@@ -96,12 +96,12 @@ Voice Biometric Authentication System focuses on verifying user identity through
 5️⃣ User Verification & Decision Making<br>
 <p align="center"><img width="350" height="500" alt="image (3)" src="https://github.com/user-attachments/assets/9365bb2b-c818-4434-9d3d-73012ff6e215" /></p>
 
-# Methodology
+## Methodology
 <p align="center">
 <img width="500" height="800" alt="image (2)" src="https://github.com/user-attachments/assets/7c3dd04e-0fbb-421e-96ef-eba44de028cc" />
 </p>
 
-# Future Improvements
+## Future Improvements
 
 1. Use ML models (e.g., SVM, neural networks) to improve the authentication model and achieve better accuracy.
 2. Add GUI for easier interaction.
